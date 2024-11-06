@@ -1,0 +1,13 @@
+CrosswordPuzzleCPP/
+│
+├── src/
+│   ├── CrosswordGrid.cpp
+│   ├── CrosswordGrid.h
+│   ├── Word.cpp
+│   ├── Word.h
+│   └── main.cpp
+│
+├── LICENSE
+├── README.md
+├── .gitignore
+└── CMakeLists.txt (optional, if you want to use CMake for building)
