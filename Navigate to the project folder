@@ -1,0 +1,7 @@
+# Navigate to the project folder : cd CrosswordPuzzleCPP
+mkdir build
+cd build
+cmake ..
+make
+./crossword_puzzle
+
