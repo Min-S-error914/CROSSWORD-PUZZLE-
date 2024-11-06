@@ -1,0 +1,21 @@
+
+### 4. **.gitignore** File
+
+The `.gitignore` file ensures that unnecessary or sensitive files are not tracked by Git (such as temporary files, build artifacts, and compiled binaries). Here's a basic `.gitignore` for C++ projects:
+
+```txt
+# Ignore build and temporary files
+/build/
+/*.o
+/*.exe
+/*.out
+*.swp
+*.bak
+*.log
+
+# Ignore IDE files (e.g., for Visual Studio, Xcode, etc.)
+.vscode/
+.idea/
+CMakeCache.txt
+CMakeFiles/
+Makefile
